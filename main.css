@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);}
+
+.container{
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+
+/* Score Board */
+.score-board{
+  display: flex;
+  justify-content: space-around;
+}
+/* Player Scores */
+.player-section{
+  display: flex;
+  height: 100%;
+}
+.player-section-images{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-right: 15px;
+}
+.player-section-name{
+  width: 50px;
+}
+.player-section-name h3{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-family: 'Nunito',sans-serif;
+  line-height: 15px;
+  font-size: 16px;
+  color: white;
+}
+/* Player Scores */
+
+/*Scores */
+.scores{display:flex;}
+#player-score{
+  font-family: 'Nunito',sans-serif;
+  color: white;
+  font-size: 40px;
+}
+.scores h1{
+  font-family: 'Nunito',sans-serif;
+  color: white;
+  font-size: 40px;
+}
+#computer-score{
+  font-family: 'Nunito',sans-serif;
+  color: white;
+  font-size: 40px;
+}
+/*Scores */
+
+
+/* AI Scores */
+.ai-section{
+  display: flex;
+  height: 100%;
+}
+.ai-section-images{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-right: 15px;
+}
+.ai-section-name{
+  width: 50px;
+}
+.ai-section-name h3{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-family: 'Nunito',sans-serif;
+  line-height: 15px;
+  font-size: 16px;
+  color: white;
+}
+/* AI Scores */
+/*Player Scores */
+
+
+
+/* Big User Score */
+.user-score{margin-top: 5px;}
+ #user-score{
+   text-align: center;
+   font-family: 'Nunito',sans-serif;
+   font-size: 300px;
+   color: white;
+ }
+
+
+
+.player-choice{
+  padding: 0px 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.buttons img{
+  height: 120px;
+}
